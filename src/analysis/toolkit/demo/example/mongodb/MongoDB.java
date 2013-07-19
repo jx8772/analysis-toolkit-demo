@@ -21,6 +21,7 @@ import java.util.logging.Logger;
  */
 public class MongoDB {
     public static void main(String[] args) {
+        //comment for testing github
         try {
             MongoClient mongo = new MongoClient( "localhost" , 27017 );
             
